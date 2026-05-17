@@ -19,3 +19,18 @@ The WebSocket server listens on `ws://localhost:8080/chat`.
 3. Run `npm run dev`
 
 Open the browser on the Vite dev URL and start chatting.
+
+## Run with Docker
+
+1. Install Docker Desktop
+2. From the repo root, run:
+   ```bash
+   docker compose up --build
+   ```
+3. The backend is available on `http://localhost:8080`
+4. The frontend is available on `http://localhost:5173`
+
+## Branch workflow
+
+- Branch: `feature/chat-app`
+- Default branch after merge: `main`
