@@ -1,0 +1,15 @@
+# Node
+node_modules/
+.vite/
+dist/
+.env
+
+# Java
+/target/
+**/*.class
+**/*.log
+
+# IDE
+/.idea/
+*.iml
+*.log
